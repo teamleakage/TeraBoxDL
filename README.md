@@ -27,5 +27,5 @@
 
 * **Args:**
 ```
-["bot01", "https://github.com/MysteryDemon/TeraBoxDL", "main", "TeraBoxDownloader", {"API_ID":"", "API_HASH":"", "BOT_TOKEN":"", "ADMINS":"", "LOG_CHANNEL":"", "MONGO_URI":""}]
+["bot01", "https://github.com/MysteryDemon/TeraBoxDL", "main", "TeraBoxDownloader", {"API_ID":"", "API_HASH":"", "BOT_TOKEN":"", "ADMINS":"", "LOG_CHANNEL":"", "MONGO_URI":""}, "3.11"]
 ```
