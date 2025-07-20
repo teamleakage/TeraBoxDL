@@ -57,7 +57,7 @@ class Var:
         LOGS.critical('Important Variables Missing. Fill Up and Retry..!! Exiting Now...')
         exit(1)
     FSUB_CHATS = list(map(int, getenv('FSUB_CHATS', "0").split()))
-    FSUB_LOG_CHANNEL = int(getenv("FSUB_LOG_CHANNEL") or LOG_CHANNEL or 0)
+    FSUB_LOG_CHANNEL = int(getenv("FSUB_LOG_CHANNEL") or Var.LOG_CHANNEL or 0)
     LOG_CHANNEL = int(getenv("LOG_CHANNEL") or 0)    
     DB_NAME = getenv("DB_NAME", "TeraBoxDownloaderBot")  
     ADMINS = list(map(int, getenv("ADMINS", "1242011540").split()))
